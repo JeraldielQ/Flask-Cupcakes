@@ -1,0 +1,118 @@
+.cupcake-image {
+  width: 150px;
+  height: auto;
+}
+
+
+#cupcakes-list {
+  list-style: none;
+  padding: 0;
+}
+
+#cupcakes-list li {
+  margin-bottom: 10px;
+}
+
+/* Style for the cupcake form */
+#new-cupcake-form {
+  margin-top: 20px;
+}
+
+#new-cupcake-form div {
+  margin-bottom: 10px;
+}
+
+#new-cupcake-form label {
+  font-weight: bold;
+}
+
+#new-cupcake-form input {
+  width: 200px;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Cupcake list styles */
+#cupcakes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+li .cupcake-flavor,
+li .cupcake-size,
+li .cupcake-rating {
+  font-weight: bold;
+}
+
+.cupcake-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+/* Update and delete button styles */
+.update-button,
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
